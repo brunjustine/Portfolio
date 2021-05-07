@@ -1,0 +1,47 @@
+.content-container h1 {
+    text-align: center;
+    color: #FF6D00;
+    padding-top: 7%;
+}
+
+.bandeau-img {
+    background-image: url('../asset/bandeau/1.jpeg');
+    background-position: center;
+    /*background-size: contain;*/
+    display: block;
+    border:none;
+    height: 300px;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+.bandeau-black {
+    background-position: center;
+    background-color: black;
+    border:none;
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding: 2%;
+    top: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+}
+
+.icon {
+    width:70px;
+}
+
+.dark-orange {
+    color: #FF6D00;
+}
+
+div.bandeau-black p:first-of-type  {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px; 
+}

@@ -1,0 +1,36 @@
+
+.card:before {
+    content:'';
+    color:#fff;
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(255,255,255,0.5);
+    opacity:0.5;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.card:hover:before {
+    opacity:0;
+}
+
+.card:hover .cercle-shape {
+    visibility: visible;
+}
+
+.card:before{
+    filter : contrast(1.2);
+}
+
+.cercle-shape{
+    visibility: hidden;
+    height: 120px; 
+    width: 120px;
+    border-radius: 50%; 
+
+    margin:auto;
+    border-style: none;
+
+    background-color: turquoise;
+}

@@ -1,0 +1,62 @@
+/* Classe principale de la barre de navigation */
+.navbar-default {
+ /* Couleur de fond de la barre de navigation */
+    background-color: black;
+    border-color: #E7E7E7;
+    text-align: center;
+    font-size: small;
+}
+
+.navbar-nav {
+  margin:auto;
+}
+
+/* unvisited link */
+.nav-link:link {
+  color: white!important;
+}
+
+/* visited link */
+.nav-link:visited {
+  color: white!important;
+}
+
+/* mouse over link */
+.nav-link:hover {
+  color: #DE6845!important;
+}
+
+.nav-link:active {
+  color:#DE6845!important;
+}
+
+/* Couleur des titres affichés dans la barre */
+.navbar-default .navbar-brand {
+    color: white;
+    filter : contrast(1.5);
+}
+/* Couleur utilisée lors du passage de la souris sur un titre de la barre */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+ color:#DE6845;
+}
+
+.custom-toggler.navbar-toggler { 
+    border-color: white; 
+} 
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8, %3Csvg viewBox=’0 0 32 32′ xmlns=’http://www.w3.org/2000/svg’%3E%3Cpath stroke=’rgba(0, 128, 0, 0.8)’ stroke-width=’2′ stroke-linecap=’round’ stroke-miterlimit=’10’ d=’M4 8h24M4 16h24M4 24h24’/%3E%3C/svg%3E');
+}
+
+hr {
+    width :1000px;
+    border: none;
+    border-bottom: 1px solid white;
+    opacity: 1;
+    margin:auto;
+    background-color: black;
+    padding-top: 5px;
+}
+    
+    

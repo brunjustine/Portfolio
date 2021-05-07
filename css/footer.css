@@ -1,0 +1,16 @@
+footer {
+    position:sticky;
+    bottom:0;
+    width:100%;
+    background-color:black;
+    color :white;
+}
+
+.icon-footer{
+    width: 40px;
+}
+
+#Contact {
+    
+}
+.social-networks {}

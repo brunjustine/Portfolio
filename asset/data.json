@@ -1,0 +1,18 @@
+{
+    "projects" : [
+        {
+            "title" : "TinDoctor",
+            "description" : "Application web pour mettre en relation des médecins installés avec des médecins remplaçants selon leurs disponibilités, la distance lres reliant et leurs qualifications.",
+            "images":[],
+            "link":"",
+            "technos":["Angular","Node JS"]
+        },
+        {
+            "title" : "LovYourCuisine",
+            "description" : "Site web permettant la recherche de rectte avec commande automatique dans le magasin bio le plus proche.",
+            "images":[],
+            "link":"",
+            "technos":["Javascript","MySql","PHP","HTML/CSS"]
+        }
+    ]
+}
